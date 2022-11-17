@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@500&display=swap');
+@media (min-width: 768px) and (max-width:961px) {
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 360px;
+    height: 2876px;
+    background: #F1F1F1; 
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 92px;
+    width: 360px;
+    height: 62px;
+
+}
+
+.magnifier1 img {
+    position: absolute;
+    width: 18.68px;
+    height: 22px;
+    left: 20px;
+    top: 1.5em;
+
+}
+
+.nav_search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+    width: 102px;
+    height: 38px;
+    border-radius: 100px;
+    border:none;
+}
+
+
+
+.jumysTap{
+    width: 86px;
+    height: 22px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #000000;
+    position: absolute;
+    width: 18.68px;
+    height: 22px;
+    left: 32px;
+    top: 0.5em;
+    margin-left: 1em;
+
+}
+
+
+.nav_fancyButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 102px;
+    height: 38px;
+    background: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+    border:none;
+    margin-left: 6em;
+}
+
+.nav_fancyButton:hover{
+    background-color: rgba(8, 30, 52, 0.08);
+}
+
+.nav_fancyButton:focus:active{
+    background-color: rgba(8, 30, 52, 0.12);
+}
+
+
+.content{
+    display: grid;
+    align-self: auto;
+    justify-content:flex-start;
+    margin: auto;
+}
+
+.advertisement img{
+    position: absolute;
+    width: 373px;
+    height: 249px;
+    left: -34px;
+    top: -12px;
+    margin-left: 3em;
+    margin-top: 8em;
+}
+
+.get_hired{
+    width: 312px;
+    height: 114px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 10em;
+    margin-left: 1.5em;
+
+}
+
+.the_best_tool{
+    width: 312px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: -2em;
+    margin-left: 3.5em;
+
+
+}
+
+.button_how_it_works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    width: 144px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    color: #F1F1F1;
+    border: none;
+    margin-left: 9em;
+    margin-top: 4em;
+}
+
+.button_how_it_works:hover{
+    background-color: gray;
+}
+
+.button_how_it_works:focus:active{
+    background-color: grey;
+}
+
+.how_it_works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 54px 24px;
+    gap: 54px;
+    width: 360px;
+    height: 686px;
+    background: #E1DEE7;
+    border-radius: 32px;
+    margin-top: 3em;
+}
+
+.lorem {
+    width: 169px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    color: #000000;
+    margin-top: -30em;
+}
+
+
+.how_it_works_text{
+    width: 312px;
+    width: 312px;
+    height: 56px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #000000;
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+.numbers img{
+    display: flex;
+    flex-direction: column;
+    margin-left: -3em;
+
+}
+
+.textUnderNumbers {
+    width: 312px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    margin-top: -12em;
+}
+
+
+.get_started{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 360px;
+    height: 2876px;
+    background: #F1F1F1;
+}
+
+.letsGetStarted{
+    width: 312px;
+    height: 29px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.theBestTool{
+    width: 312px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 2.5em;
+}
+
+.searchForJob{
+    box-sizing: border-box;
+width: 312px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #E1DEE7;
+border-radius: 12px;
+margin-left: 3em;
+
+
+}
+
+.searchforJobText{
+    position: absolute;
+width: 495px;
+height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+opacity: 0.5;
+}
+
+.findJobButton {
+    margin-top: 6em;
+    margin-left: -3em;
+    
+}
+.searchForJobButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 106px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    border:none;
+    color: #F1F1F1;
+    margin-left: 10em;
+    margin-bottom: 10em
+}
+
+.searchForJobButton:hover{
+    background-color: blue;
+}
+
+.upload_Your_CV{
+    width: 174px;
+    height: 29px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 20em;
+    margin-left: -1em;
+}
+
+.theBestTool2{
+    width: 312px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: -1.5em;
+    margin-top: 3em;
+}
+
+.uploadYourCV img{
+    position: absolute;
+    width: 373px;
+    height: 249px;  
+    margin-left: -2em;
+    margin-top: -3em;
+   
+}
+
+.uploadButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px 16px 16px;
+    gap: 8px;
+    width: 114px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    color: #F1F1F1;
+    border: none;
+    
+}
+
+.uploadButton:hover{
+    background-color: blue;
+}
+}
